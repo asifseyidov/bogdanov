@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <title>Александр Богданов</title>
+</head>
+
+<body>
+    <section class="top_header container p-150 w-100 p-10 gilroy">
+        <div class="top_left">
+            <div class="left_icons">
+                <img src="images/top_left/icon.svg" class="flag" alt="" />
+                <img src="images/top_left/expand more.svg" alt="" id="flagDown" />
+            </div>
+            <div class="left_text">
+                <span>Ваш город: <span id="city">Москва</span></span>
+            </div>
+            <div class="top_drop" id="top_drop">
+                <ul>
+                    <li class="rus"><img src="images/top_left/Mask Group.svg" alt="">Россия</li>
+                    <li class="eng"><img src="images/top_left/Mask Group (1).svg" alt="">English</li>
+                    <li class="esp"><img src="images/top_left/Mask Group (2).svg" alt="">Espanol</li>
+                    <li class="ger"><img src="images/top_left/Mask Group (3).svg" alt="">German</li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_right">
+            <ul>
+                <li>
+                    <img src="images/top_right/box.svg" alt="" />Бесплатная доставка
+                </li>
+                <li>
+                    <img src="images/top_right/headphone.svg" alt="" />Примерка перед
+                    покупкой
+                </li>
+                <li>
+                    <img src="images/top_right/veshalka.svg" alt="" />Связаться с нами
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <header class="header container p-150 w-100 p-10">
+      <div class="header_left">
+        <img
+          src="images/burger/menu.svg"
+          alt=""
+          class="burger_lines"
+          id="burger_lines"
+        />
+        <a href="index.html"><img src="images/header_left/logo.svg" alt="" /></a>
+      </div>
+      <div class="header_center literata">
+        <ul>
+          <li class="catalog"><a href="#" >Каталог</a>
+          </li>
+          <li><a href="news.html">О нас</a></li>
+          <li><a href="#">Lookbook</a></li>
+          <li><a href="contact.html">Адреса магазинов</a></li>
+        </ul>
+        
+      </div>
+      <div class="header_right">
+        <ul>
+          <li><img src="images/header_right/men.svg" alt="" /></li>
+          <li><img src="images/header_right/love.svg" alt="" /></li>
+          <li><a href="buy.html"><img src="images/header_right/bag.svg" alt="" /></a></li>
+          <li><img src="images/header_right/search.svg" alt="" /></li>
+        </ul>
+      </div>
+
+      <div class="burger_menu gilroy">
+        <ul>
+          <li>
+            <a href=""
+              ><div class="left_text">
+                <span>Ваш город: <span id="city">Москва</span></span>
+              </div></a
+            >
+          </li>
+          <li><a href="">Новое</a></li>
+          <li><a href="">Бестселлеры</a></li>
+          <li>
+            <a href="">Одежда <img src="images/burger/Shape.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""
+              >Аксессуары <img src="images/burger/Shape.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              >Коллекции <img src="images/burger/Shape.svg" alt=""
+            /></a>
+          </li>
+          <li><a href="">Специальные предложения</a></li>
+          <li><a href="">Lookbook</a></li>
+          <li>
+            <a href="">О нас <img src="images/burger/Shape.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="">Помощь <img src="images/burger/Shape.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""
+              >Партнерам <img src="images/burger/Shape.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="images/top_left/icon.svg" alt="" />Россия
+              <img src="images/burger/Shape.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+        <div class="burger_links">
+          <a href=""><img src="images/burger/youtube.svg" alt="" /></a>
+          <a href=""><img src="images/burger/fb.svg" alt="" /></a>
+          <a href=""><img src="images/burger/insta.svg" alt="" /></a>
+          <a href=""><img src="images/burger/vk.svg" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="header_dropdown container p-150 w-100">
+        <div class="new w-10">
+          <ul>
+            <li><a href="" class="title">Новое</a></li>
+            <li><a href="">Бестселлеры</a></li>
+            <li><a href="">Специальные предложения</a></li>
+          </ul>
+        </div>
+        <div class="clothes">
+          <ul>
+            <li><a href="" class="title">Одежда</a></li>
+            <li><a href="">Блузы и рубашки </a></li>
+            <li><a href="">Брюки и шорты</a></li>
+            <li><a href="">Верхняя одежда</a></li>
+            <li><a href="jamper.html">Джемперы</a></li>
+            <li><a href="">Жакеты и бомберы</a></li>
+            <li><a href="">Платья</a></li>
+            <li><a href="">Юбки</a></li>
+          </ul>
+        </div>
+        <div class="acces w-10">
+          <ul>
+            <li><a href="" class="title">Аксессуары </a></li>
+            <li><a href="">Шапки </a></li>
+            <li><a href="">Палантины </a></li>
+          </ul>
+        </div>
+        <div class="collection">
+          <ul>
+            <li><a href="" class="title">Коллекции </a></li>
+            <div class="coll_items">
+              <div class="coll_item">
+                <div class="coll_img">
+                  <img src="images/dropdown/fashion.png" alt="" />
+                </div>
+                <div class="coll_text">
+                  <span>Голландия</span>
+                  <span>Осень 2020/Зима 2021</span>
+                </div>
+              </div>
+              <div class="coll_item">
+                <div class="coll_img">
+                  <img src="images/dropdown/church.png" alt="" />
+                </div>
+                <div class="coll_text">
+                  <span>Настроение города</span>
+                  <span>Осень 2019/зима 2020</span>
+                </div>
+              </div>
+              <div class="coll_item">
+                <div class="coll_img">
+                  <img src="images/dropdown/field.png" alt="" />
+                </div>
+                <div class="coll_text">
+                  <span>Акварельный прованс</span>
+                  <span>Весна/Лето 2020</span>
+                </div>
+              </div>
+              <div class="coll_item">
+                <div class="coll_img">
+                  <img src="images/dropdown/white.png" alt="" />
+                </div>
+                <div class="coll_text">
+                  <span>Лигурия</span>
+                  <span>Весна/лето 2019</span>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="contact_head _head p-150 w-100 container">
+        <a href="index.html"><span>Главная </span></a>
+        <span>/ Адреса Магазинов</span>
+        <h1>Контакты</h1>
+    </section>
+
+    <section class="contact1 p-150 w-100 container gilroy">
+        <div class="con_left">
+            <div class="con_left_img">
+                <img src="images/contact/Rectangle 148.png" alt="">
+                <div class="con_left_text">
+                    <h2>Обращения</h2>
+                    <p class="f_text">Если у вас возник вопрос — свяжитесь с отделом помощи клиентам, позвоните или напишите нам</p>
+                    <p><img src="images/contact/Union.svg" alt="">int.shop@bgd-bogdanov.com</p>
+                    <p><img src="images/contact/icon phone.svg" alt="">8 800 551–90–50</p>
+                </div>
+            </div>
+            <div class="con_left_sea">
+                <img src="images/contact/image 124 1.png" alt="">
+            </div>
+            
+        </div>
+        <div class="con_right">
+          <h2>Реклама</h2>
+          <p class="f_text last">Для запросов СМИ, участий в мероприятиях и другой рекламы</p>
+          
+          <p>+7 (960) 980–09–49</p>
+          <p>marketing@bgd-bogdanov.com</p>
+        </div>
+    </section>
+    <section class="contact2 p-150 w-100 container">
+        <div class="con_left2">
+            <div class="f_img">
+                <h2>Официальные  запросы</h2>
+                <p>Для отпрвки и получения деловой окументации</p>
+
+                <a href="">info@bgd-bogdanov.com</a>
+            </div>
+            <div class="f_img">
+                <h2>Партнерство и сотрудничество</h2>
+                <p>Унайте подробные условия для сотрудничества</p>
+                <a href="">info@bgd-bogdanov.com</a>
+            </div>
+        </div>
+        <div class="con_right2">
+          <h2>Идеи и  предоставляемые услуги</h2>
+          <p class="last">Мы стараемся все сделать идеально, нам важна ообратная связь. Ваши письма читает сам Александр Богданов и его команда управления.</p>
+
+          <a href="">control@bgd-bogdanov.com</a>
+        </div>
+    </section>
+
+    <footer class="footer container w-100 p-150">
+        <div class="firstcol">
+          <ul>
+            <li>О нас</li>
+            <li><a href="">О компании</a></li>
+            <li><a href="">Александр Богданов</a></li>
+            <li><a href="">История</a></li>
+            <li><a href="">Пресса о нас</a></li>
+            <li><a href="">Новости</a></li>
+          </ul>
+        </div>
+        <div class="firstcol">
+          <ul>
+            <li>Каталог</li>
+            <li><a href="">Купить женскую одежду</a></li>
+            <li><a href="">Платья</a></li>
+            <li><a href="">Юбки</a></li>
+            <li><a href="">Джемперы</a></li>
+            <li><a href="">Жакеты и бомберы</a></li>
+            <li><a href="">Блузы</a></li>
+            <li><a href="">Рубашки</a></li>
+            <li><a href="">Верхняя одежда</a></li>
+            <li><a href="">Аксессуары</a></li>
+          </ul>
+        </div>
+        <div class="firstcol">
+          <ul>
+            <li>Помощь</li>
+            <li><a href="">Как оформить заказ</a></li>
+            <li><a href="">Как выбрать размер</a></li>
+            <li><a href="">Оплата</a></li>
+            <li><a href="">Доставка</a></li>
+            <li><a href="">Возврат</a></li>
+            <li><a href="">Конфиденциальность</a></li>
+            <li><a href="">Мои заказы</a></li>
+            <li><a href="">Уход за изделиями</a></li>
+          </ul>
+        </div>
+        <div class="firstcol">
+          <ul>
+            <li>Партнерам</li>
+            <li><a href="">Партнерам</a></li>
+            <li><a href="">Франчайзинг</a></li>
+            <li><a href="">Зарубежные партнеры</a></li>
+            <li><a href="">Оптовые партнеры</a></li>
+          </ul>
+        </div>
+        <div class="lastcol">
+          <ul>
+            <li>
+              Подпишитесь <br />
+              на нашу рассылку
+            </li>
+            <li>Обещаем отправлять только важное и интересное</li>
+            <li>
+              <label for="" class="label">
+                <input
+                  type="text"
+                  class="inputText"
+                  required
+                  placeholder="E-mail"
+                />
+                <button><img src="images/footer/envelope.svg" alt="" /></button>
+              </label>
+            </li>
+            <li>
+              Отправляя данные формы, вы соглашаетесь с условиями политикой
+              конфиденциальности
+            </li>
+            <li>
+              <div class="burger_links footer_links">
+                <a href=""><img src="images/footer/yout.svg" alt="" /></a>
+                <a href=""><img src="images/footer/fb.svg" alt="" /></a>
+                <a href=""><img src="images/footer/insta.svg" alt="" /></a>
+                <a href=""><img src="images/footer/vk.svg" alt="" /></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

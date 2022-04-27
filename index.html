@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <title>Александр Богданов</title>
+  </head>
+  <body>
+    <section class="top_header container p-150 w-100 p-10 gilroy">
+      <div class="top_left">
+        <div class="left_icons">
+          <img src="images/top_left/icon.svg" class="flag" alt="" />
+          <img src="images/top_left/expand more.svg" alt="" id="flagDown" />
+        </div>
+        <div class="left_text">
+          <span>Ваш город: <span id="city">Москва</span></span>
+        </div>
+        <div class="top_drop" id="top_drop">
+          <ul>
+            <li class="rus"><img src="images/top_left/Mask Group.svg"  alt="">Россия</li>
+            <li class="eng"><img src="images/top_left/Mask Group (1).svg"  alt="">English</li>
+            <li class="esp"><img src="images/top_left/Mask Group (2).svg"  alt="">Espanol</li>
+            <li class="ger"><img src="images/top_left/Mask Group (3).svg"   alt="">German</li>
+          </ul>
+        </div>
+      </div>
+      <div class="top_right">
+        <ul>
+          <li>
+            <img src="images/top_right/box.svg" alt="" />Бесплатная доставка
+          </li>
+          <li>
+            <img src="images/top_right/headphone.svg" alt="" />Примерка перед
+            покупкой
+          </li>
+          <li>
+            <img src="images/top_right/veshalka.svg" alt="" />Связаться с нами
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <header class="header container p-150 w-100 p-10">
+      <div class="header_left">
+        <img
+          src="images/burger/menu.svg"
+          alt=""
+          class="burger_lines"
+          id="burger_lines"
+        />
+        <a href="index.html"><img src="images/header_left/logo.svg" alt="" /></a>
+      </div>
+      <div class="header_center literata">
+        <ul>
+          <li class="catalog"><a href="#" >Каталог</a>
+          </li>
+          <li><a href="news.html">О нас</a></li>
+          <li><a href="#">Lookbook</a></li>
+          <li><a href="contact.html">Адреса магазинов</a></li>
+        </ul>
+        
+      </div>
+      <div class="header_right">
+        <ul>
+          <li><img src="images/header_right/men.svg" alt="" /></li>
+          <li><img src="images/header_right/love.svg" alt="" /></li>
+          <li><a href="buy.html"><img src="images/header_right/bag.svg" alt="" /></a></li>
+          <li><img src="images/header_right/search.svg" alt="" /></li>
+        </ul>
+      </div>
+
+      <div class="burger_menu gilroy">
+        <ul>
+          <li>
+            <a href=""
+              ><div class="left_text">
+                <span>Ваш город: <span id="city">Москва</span></span>
+              </div></a
+            >
+          </li>
+          <li><a href="">Новое</a></li>
+          <li><a href="">Бестселлеры</a></li>
+          <li>
+            <a href="">Одежда <img src="images/burger/Shape.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""
+              >Аксессуары <img src="images/burger/Shape.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              >Коллекции <img src="images/burger/Shape.svg" alt=""
+            /></a>
+          </li>
+          <li><a href="">Специальные предложения</a></li>
+          <li><a href="">Lookbook</a></li>
+          <li>
+            <a href="">О нас <img src="images/burger/Shape.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="">Помощь <img src="images/burger/Shape.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""
+              >Партнерам <img src="images/burger/Shape.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="images/top_left/icon.svg" alt="" />Россия
+              <img src="images/burger/Shape.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+        <div class="burger_links">
+          <a href=""><img src="images/burger/youtube.svg" alt="" /></a>
+          <a href=""><img src="images/burger/fb.svg" alt="" /></a>
+          <a href=""><img src="images/burger/insta.svg" alt="" /></a>
+          <a href=""><img src="images/burger/vk.svg" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="header_dropdown container p-150 w-100">
+        <div class="new w-10">
+          <ul>
+            <li><a href="" class="title">Новое</a></li>
+            <li><a href="">Бестселлеры</a></li>
+            <li><a href="">Специальные предложения</a></li>
+          </ul>
+        </div>
+        <div class="clothes">
+          <ul>
+            <li><a href="" class="title">Одежда</a></li>
+            <li><a href="">Блузы и рубашки </a></li>
+            <li><a href="">Брюки и шорты</a></li>
+            <li><a href="">Верхняя одежда</a></li>
+            <li><a href="jamper.html">Джемперы</a></li>
+            <li><a href="">Жакеты и бомберы</a></li>
+            <li><a href="">Платья</a></li>
+            <li><a href="">Юбки</a></li>
+          </ul>
+        </div>
+        <div class="acces w-10">
+          <ul>
+            <li><a href="" class="title">Аксессуары </a></li>
+            <li><a href="">Шапки </a></li>
+            <li><a href="">Палантины </a></li>
+          </ul>
+        </div>
+        <div class="collection">
+          <ul>
+            <li><a href="" class="title">Коллекции </a></li>
+            <div class="coll_items">
+              <div class="coll_item">
+                <div class="coll_img">
+                  <img src="images/dropdown/fashion.png" alt="" />
+                </div>
+                <div class="coll_text">
+                  <span>Голландия</span>
+                  <span>Осень 2020/Зима 2021</span>
+                </div>
+              </div>
+              <div class="coll_item">
+                <div class="coll_img">
+                  <img src="images/dropdown/church.png" alt="" />
+                </div>
+                <div class="coll_text">
+                  <span>Настроение города</span>
+                  <span>Осень 2019/зима 2020</span>
+                </div>
+              </div>
+              <div class="coll_item">
+                <div class="coll_img">
+                  <img src="images/dropdown/field.png" alt="" />
+                </div>
+                <div class="coll_text">
+                  <span>Акварельный прованс</span>
+                  <span>Весна/Лето 2020</span>
+                </div>
+              </div>
+              <div class="coll_item">
+                <div class="coll_img">
+                  <img src="images/dropdown/white.png" alt="" />
+                </div>
+                <div class="coll_text">
+                  <span>Лигурия</span>
+                  <span>Весна/лето 2019</span>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="first w-100 container swiper" id="first_slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide first">
+          <div class="first_left">
+            <p class="gilroy">
+              Одежда <br />
+              для утонченных женщин
+            </p>
+            <h1 class="literata">Новая коллекция</h1>
+            <button class="seeAll">Посмотреть в каталоге</button>
+          </div>
+          <div class="first_right"></div>
+        </div>
+        <div class="swiper-slide first">
+          <div class="first_left">
+            <p class="gilroy">
+              Одежда <br />
+              для утонченных женщин
+            </p>
+            <h1 class="literata">Новая коллекция</h1>
+            <button class="seeAll">Посмотреть в каталоге</button>
+          </div>
+          <div class="first_right">
+
+          </div>
+        </div>
+        <div class="swiper-slide first">
+          <div class="first_left">
+            <p class="gilroy">
+              Одежда <br />
+              для утонченных женщин
+            </p>
+            <h1 class="literata">Новая коллекция</h1>
+            <button class="seeAll">Посмотреть в каталоге</button>
+          </div>
+          <div class="first_right">
+          </div>
+        </div>
+        <div class="swiper-slide first">
+          <div class="first_left">
+            <p class="gilroy">
+              Одежда <br />
+              для утонченных женщин
+            </p>
+            <h1 class="literata">Новая коллекция</h1>
+            <button class="seeAll">Посмотреть в каталоге</button>
+          </div>
+          <div class="first_right">
+          
+          </div>
+        </div>
+        <div class="swiper-slide first">
+          <div class="first_left">
+            <p class="gilroy">
+              Одежда <br />
+              для утонченных женщин
+            </p>
+            <h1 class="literata">Новая коллекция</h1>
+            <button class="seeAll">Посмотреть в каталоге</button>
+          </div>
+          <div class="first_right">
+           
+          </div>
+        </div>
+      </div>
+      <div class="sl_block">
+        <img
+          src="images/first/arr-left.svg"
+          alt=""
+          class="swiper-button-prev1"
+          id="prevArr"
+        />
+        <span class="gilroy" id="slideNum">01/05</span>
+        <img
+          src="images/first/arr-right.svg"
+          alt=""
+          class="swiper-button-next1"
+          id="nextArr"
+        />
+      </div>
+    </section>
+
+    <!-- First Mobile -->
+    <section class="first_mobile">
+      <div class="m_bg">
+        <img src="images/mobile_first/img.png" alt="" />
+        <img src="images/mobile_first/bg1.png" alt="" />
+      </div>
+      <div class="m_bg2">
+        <img src="images/mobile_first/bg2.png" alt="" />
+        <div class="m_bg_text gilroy">
+          <p>Одежда для утонченных женщин</p>
+          <h1>
+            Новая <br />
+            коллекция
+          </h1>
+          <button class="seeAll mbtn">Посмотреть в каталоге</button>
+        </div>
+      </div>
+      <!-- <div class="sl_block">
+        <img src="images/first/arr-left.svg" alt="" />
+        <span class="gilroy">01/05</span>
+        <img src="images/first/arr-right.svg" alt="" class="rounds" />
+        <img src="images/first/blackround.svg" alt="" class="rounds" />
+        <img src="images/first/blackround.svg" alt="" class="rounds" />
+        <img src="images/first/blackround.svg" alt="" class="rounds" />
+        <img src="images/first/blackround.svg" alt="" class="rounds" />
+      </div> -->
+    </section>
+
+    <section class="second container p-150 w-100 p-10 gilroy" id="second">
+      <div class="second_block">
+        <img src="images/second/icon.svg" alt="" />
+        <p>Собственные уникальные принты</p>
+      </div>
+      <div class="second_block">
+        <img src="images/second/icon (1).svg" alt="" />
+        <p>Авторская вышивка для каждого изделия</p>
+      </div>
+      <div class="second_block">
+        <img src="images/second/icon (2).svg" alt="" />
+        <p>Произведенные во Франции кружева</p>
+      </div>
+      <div class="second_block">
+        <img src="images/second/icon (3).svg" alt="" />
+        <p>Лучшая фурнитура из Италии</p>
+      </div>
+    </section>
+
+    <!-- Second Mobile -->
+
+    <section class="second_mobile p-20">
+      <img src="images/mobile_first/catalog.png" alt="" />
+      <button class="arrow">
+        <img src="images/third/arrow.svg" alt="" />
+      </button>
+    </section>
+
+    <section class="third container p-150 w-100 p-10">
+      <div class="third_block">
+        <div class="left_3">
+          <h2>Заметки путешественника. Голландия</h2>
+          <div class="left_text3 gilroy">
+            <span>Осень 2020/Зима 2021</span>
+            <button class="arrow">
+              <img src="images/third/arrow.svg" alt="" />
+            </button>
+            <span>Листать полный каталог </span>
+          </div>
+        </div>
+        <div class="right_3">
+          <img src="images/third/rose.png" class="w-100 rose" alt="" />
+          <div class="right_img3">
+            <img src="images/third/jurnal.png" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="four container p-150 w-100 p-10">
+      <div class="four_left gilroy">
+        <h1>Новинки</h1>
+        <p>
+          Каждая модель – маленькое произведение искусства, подлинник автора,
+          без копий, реплик и прямых заимствований.
+        </p>
+        <button class="seeAll">Посмотреть все</button>
+      </div>
+      <div class="four_right swiper" id="swip_clothes">
+          <div class="swiper-wrapper">
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/1.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Брюки "Чёрный тюльпан" / Trousers ''Black tulip'' </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>10 500 ₽ <span>12 000 ₽</span></p>
+          </div>
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/2.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Платье «Королевский дворец» / Dress «Royal Palace» </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>22 400 ₽</p>
+          </div>
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/3.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Кардиган «Лунный мир» / Cardigan «Lunar world» </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>15 700 ₽</p>
+          </div>
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/1.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Брюки "Чёрный тюльпан" / Trousers ''Black tulip'' </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>10 500 ₽ <span>12 000 ₽</span></p>
+          </div>
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/2.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Платье «Королевский дворец» / Dress «Royal Palace» </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>22 400 ₽</p>
+          </div>
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/3.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Кардиган «Лунный мир» / Cardigan «Lunar world» </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>15 700 ₽</p>
+          </div>
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/1.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Брюки "Чёрный тюльпан" / Trousers ''Black tulip'' </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>10 500 ₽ <span>12 000 ₽</span></p>
+          </div>
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/2.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Платье «Королевский дворец» / Dress «Royal Palace» </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>22 400 ₽</p>
+          </div>
+          <div class="four_card gilroy swiper-slide">
+            <div class="four_card_img">
+              <img src="images/four/3.png" alt="" />
+            </div>
+            <div class="four_card_text">
+              <span>Кардиган «Лунный мир» / Cardigan «Lunar world» </span>
+              <img src="images/four/love.svg" alt="" />
+            </div>
+            <p>15 700 ₽</p>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Four Mobile -->
+
+    <section class="four_mobile p-20">
+      <div class="four_left gilroy">
+        <h1>Новинки</h1>
+
+        <div class="four_card gilroy">
+          <div class="four_card_img">
+            <img src="images/mobile_first/Rectangle 1.png" alt="" />
+          </div>
+          <div class="four_card_text">
+            <span>Брюки "Чёрный тюльпан" / Trousers ''Black tulip'' </span>
+            <img src="images/four/love.svg" alt="" />
+          </div>
+          <p>10 500 ₽ <span>12 000 ₽</span></p>
+        </div>
+
+        <button class="seeAll">Посмотреть все</button>
+      </div>
+    </section>
+
+    <section class="five w-100">
+      <div class="five_left">
+        <img src="images/five/rose.png" class="rose" alt="" />
+        <img src="images/five/man.png" data-aos="fade-right" data-aos-duration="2000" class="man" alt="" />
+        <img src="images/five/quotes.svg" class="quote" alt="" />
+      </div>
+      <div class="five_right">
+        <div class="five_right_text">
+          <h2>Женщинам, которые предпочитают не эпатировать, а очаровывать</h2>
+          <p>
+            Моя одежда адресована достаточно утонченным, интеллигентным
+            женщинам. Женщинам, чьё эстетическое «я» строится на оттенках, на
+            полутонах. Женщинам, которые предпочитают не эпатировать, а
+            очаровывать. У меня есть и яркие коллекции, но основа – нежные,
+            пастельно-акварельные вещи. Они позволяют лучше передать нюансы
+            текстуры, деталировки. В таких вещах лучше виден рисунок волокон,
+            лучше видна строчка – все те чарующие мелочи, которые помогают
+            влюбляться в одежду. Получается такой парадокс: будучи весьма
+            спокойной по основному тону, вещь становится яркой. Но яркой в
+            деталях, в нюансах.
+          </p>
+          <span>Александр Богданов / Основатель и Главный Дизайнер</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Five Mobile -->
+
+    <section class="five_mobile w-100 p-20">
+      <img src="images/mobile_first/quote.png" class="quote" alt="" />
+    </section>
+
+    <section class="six container p-150 w-100">
+      <h1>Вдохновение</h1>
+      <p>
+        Иллюстрации пастелью лично от Александра Богданова для каждой капсулы
+        коллекции
+      </p>
+      <div class="six_img" >
+        <img src="images/six/block_ imgs.jpg" alt="" />
+        <img src="images/six/Mockup 2.png" data-aos="fade-up"
+        data-aos-duration="1500" alt="" class="portret" /> 
+      </div>
+    </section>
+
+    <!-- Six Mobile -->
+
+    <section class="six_mobile p-20">
+      <img src="images/mobile_first/inspiration.png" alt="" />
+    </section>
+
+    <section class="seven container w-100">
+      <div class="seven_left">
+        <h1>Материалы</h1>
+        <div class="seven_block">
+          <img src="images/seven/item (1).svg" alt="" />
+          <img src="images/seven/item (2).svg" alt="" />
+          <img src="images/seven/item.svg" alt="" />
+        </div>
+      </div>
+      <div class="seven_img">
+        <img src="images/seven/girl.png" alt="" />
+      </div>
+      <div class="seven_right">
+        <h1>Детали</h1>
+        <div class="seven_block_right">
+          <img src="images/seven/item 3.svg" alt="" />
+          <img src="images/seven/item (5).svg" alt="" />
+          <img src="images/seven/item (4).svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Seven Mobile -->
+
+    <section class="seven_mobile">
+      <img src="images/mobile_first/advantages.png" alt="" />
+    </section>
+
+    <section class="eight container w-100 p-150">
+      <div class="four_left gilroy eight_left">
+        <h1>Романтика ваших чувств</h1>
+        <p>
+          Каждая модель — маленькое произведение искусства, подлинник автора,
+          без копий, реплик и прямых заимствований.
+        </p>
+        <button class="seeAll">В каталог</button>
+      </div>
+      <div class="eight_right">
+        <img src="images/eight/item (2).png" alt="" />
+        <img src="images/eight/item (1).png" alt="" />
+        <img src="images/eight/item.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Eight Mobile -->
+
+    <section class="eight_mobile">
+      <img src="images/mobile_first/style.png" alt="" />
+    </section>
+
+    <section class="nine container w-100 p-150">
+      <div class="swiper" id="sec_slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide nine">
+            <div class="nine_left">
+              <h1>Alexander Bogdanov — бренд, понимающий женщин</h1>
+              <div class="nine_left_card">
+                <div class="nine_left_card_img">
+                  <img src="images/nine/product.png" alt="" />
+                </div>
+                <div class="nine_left_card_text">
+                  <h4>Платье «Миндальный цвет»</h4>
+                  <h4>28 700 ₽</h4>
+                  <p>
+                    Характер платья задаёт ткань – крупнофактурное кружево
+                    нежных серо-розовых оттенков. Состав и оттенки делают
+                    материал тактильно приятным, подчёркивают элитарность
+                    кружева.
+                  </p>
+                  <button class="arrow">
+                    <img src="images/third/arrow.svg" alt="" />
+                  </button>
+                  <span>Подробнее</span>
+                </div>
+              </div>
+            </div>
+            <div class="nine_right">
+              <img src="images/nine/slider.png" class="nine_slider" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide nine">
+            <div class="nine_left">
+              <h1>Alexander Bogdanov — бренд, понимающий женщин</h1>
+              <div class="nine_left_card">
+                <div class="nine_left_card_img">
+                  <img src="images/nine/product.png" alt="" />
+                </div>
+                <div class="nine_left_card_text">
+                  <h4>Платье «Миндальный цвет»</h4>
+                  <h4>28 700 ₽</h4>
+                  <p>
+                    Характер платья задаёт ткань – крупнофактурное кружево
+                    нежных серо-розовых оттенков. Состав и оттенки делают
+                    материал тактильно приятным, подчёркивают элитарность
+                    кружева.
+                  </p>
+                  <button class="arrow">
+                    <img src="images/third/arrow.svg" alt="" />
+                  </button>
+                  <span>Подробнее</span>
+                </div>
+              </div>
+            </div>
+            <div class="nine_right">
+              <img src="images/nine/slider.png" class="nine_slider" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide nine">
+            <div class="nine_left">
+              <h1>Alexander Bogdanov — бренд, понимающий женщин</h1>
+              <div class="nine_left_card">
+                <div class="nine_left_card_img">
+                  <img src="images/nine/product.png" alt="" />
+                </div>
+                <div class="nine_left_card_text">
+                  <h4>Платье «Миндальный цвет»</h4>
+                  <h4>28 700 ₽</h4>
+                  <p>
+                    Характер платья задаёт ткань – крупнофактурное кружево
+                    нежных серо-розовых оттенков. Состав и оттенки делают
+                    материал тактильно приятным, подчёркивают элитарность
+                    кружева.
+                  </p>
+                  <button class="arrow">
+                    <img src="images/third/arrow.svg" alt="" />
+                  </button>
+                  <span>Подробнее</span>
+                </div>
+              </div>
+            </div>
+            <div class="nine_right">
+              <img src="images/nine/slider.png" class="nine_slider" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide nine">
+            <div class="nine_left">
+              <h1>Alexander Bogdanov — бренд, понимающий женщин</h1>
+              <div class="nine_left_card">
+                <div class="nine_left_card_img">
+                  <img src="images/nine/product.png" alt="" />
+                </div>
+                <div class="nine_left_card_text">
+                  <h4>Платье «Миндальный цвет»</h4>
+                  <h4>28 700 ₽</h4>
+                  <p>
+                    Характер платья задаёт ткань – крупнофактурное кружево
+                    нежных серо-розовых оттенков. Состав и оттенки делают
+                    материал тактильно приятным, подчёркивают элитарность
+                    кружева.
+                  </p>
+                  <button class="arrow">
+                    <img src="images/third/arrow.svg" alt="" />
+                  </button>
+                  <span>Подробнее</span>
+                </div>
+              </div>
+            </div>
+            <div class="nine_right">
+              <img src="images/nine/slider.png" class="nine_slider" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide nine">
+            <div class="nine_left">
+              <h1>Alexander Bogdanov — бренд, понимающий женщин</h1>
+              <div class="nine_left_card">
+                <div class="nine_left_card_img">
+                  <img src="images/nine/product.png" alt="" />
+                </div>
+                <div class="nine_left_card_text">
+                  <h4>Платье «Миндальный цвет»</h4>
+                  <h4>28 700 ₽</h4>
+                  <p>
+                    Характер платья задаёт ткань – крупнофактурное кружево
+                    нежных серо-розовых оттенков. Состав и оттенки делают
+                    материал тактильно приятным, подчёркивают элитарность
+                    кружева.
+                  </p>
+                  <button class="arrow">
+                    <img src="images/third/arrow.svg" alt="" />
+                  </button>
+                  <span>Подробнее</span>
+                </div>
+              </div>
+            </div>
+            <div class="nine_right">
+              <img src="images/nine/slider.png" class="nine_slider" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sl_block_second">
+        <img
+          src="images/first/arr-left.svg"
+          alt=""
+          class="swiper-button-prev"
+        />
+        <span class="gilroy" id="slideNum2">01/05</span>
+        <img
+          src="images/first/arr-right.svg"
+          alt=""
+          class="swiper-button-next"
+        />
+      </div>
+    </section>
+
+    <!-- Nine Mobile -->
+
+    <section class="nine_mobile p-20">
+      <img src="images/mobile_first/map.png" alt="" />
+    </section>
+
+    
+    <section class="ten container w-100">
+      <div class="swiper" id="third_slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="four_left gilroy eight_left ten_left">
+              <h1>Более 200 магазинов в России</h1>
+              <button class="seeAll">посмотреть на карте</button>
+            </div>
+            <div class="ten_right">
+              <img src="images/ten/Group 542.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="four_left gilroy eight_left ten_left">
+              <h1>Более 200 магазинов в России</h1>
+              <button class="seeAll">посмотреть на карте</button>
+            </div>
+            <div class="ten_right">
+              <img src="images/ten/Group 542.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="four_left gilroy eight_left ten_left">
+              <h1>Более 200 магазинов в России</h1>
+              <button class="seeAll">посмотреть на карте</button>
+            </div>
+            <div class="ten_right">
+              <img src="images/ten/Group 542.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="four_left gilroy eight_left ten_left">
+              <h1>Более 200 магазинов в России</h1>
+              <button class="seeAll">посмотреть на карте</button>
+            </div>
+            <div class="ten_right">
+              <img src="images/ten/Group 542.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="four_left gilroy eight_left ten_left">
+              <h1>Более 200 магазинов в России</h1>
+              <button class="seeAll">посмотреть на карте</button>
+            </div>
+            <div class="ten_right">
+              <img src="images/ten/Group 542.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sl_block_third">
+        <img
+          src="images/first/arr-left.svg"
+          alt=""
+          class="swiper-button-prev"
+        />
+        <span class="gilroy"
+        id="slideNum3">01/05</span>
+        <img
+          src="images/first/arr-right.svg"
+          alt=""
+          class="swiper-button-next"
+        />
+      </div>
+    </section>
+
+    <section class="eleven container w-100 p-150">
+      <h1>О компании</h1>
+      <p>
+        Любую вещь из каталога интернет-магазина alexanderbogdanov.com всегда
+        можно заказать с бесплатной доставкой по всей России и примерить перед
+        оплатой. Это позволяет быть уверенной в том, что модель идеально
+        подойдет. Курьер может доставить несколько моделей на выбор, а
+        покупательница заплатить только за те, которые идеально подойдут.
+      </p>
+      <br />
+      <p>
+        Оплатить покупки из интернет-магазина alexanderbogdanov.com можно любым
+        удобным способом: наличными курьеру после примерки, банковской картой
+        прямо на сайте, а также наложенным платежом. У каждого курьера в наличии
+        мобильный терминал для оплаты по карте прямо у вас дома, после примерки.
+        Интернет-магазин alexanderbogdanov.com очень внимательно относится к
+        удовлетворенности своих клиентов. Поэтому товар, который был куплен, но
+        не подошел можно вернуть в течение 14 дней после покупки.
+      </p>
+    </section>
+
+    <footer class="footer container w-100 p-150">
+      <div class="firstcol">
+        <ul>
+          <li>О нас</li>
+          <li><a href="">О компании</a></li>
+          <li><a href="">Александр Богданов</a></li>
+          <li><a href="">История</a></li>
+          <li><a href="">Пресса о нас</a></li>
+          <li><a href="">Новости</a></li>
+        </ul>
+      </div>
+      <div class="firstcol">
+        <ul>
+          <li>Каталог</li>
+          <li><a href="">Купить женскую одежду</a></li>
+          <li><a href="">Платья</a></li>
+          <li><a href="">Юбки</a></li>
+          <li><a href="">Джемперы</a></li>
+          <li><a href="">Жакеты и бомберы</a></li>
+          <li><a href="">Блузы</a></li>
+          <li><a href="">Рубашки</a></li>
+          <li><a href="">Верхняя одежда</a></li>
+          <li><a href="">Аксессуары</a></li>
+        </ul>
+      </div>
+      <div class="firstcol">
+        <ul>
+          <li>Помощь</li>
+          <li><a href="">Как оформить заказ</a></li>
+          <li><a href="">Как выбрать размер</a></li>
+          <li><a href="">Оплата</a></li>
+          <li><a href="">Доставка</a></li>
+          <li><a href="">Возврат</a></li>
+          <li><a href="">Конфиденциальность</a></li>
+          <li><a href="">Мои заказы</a></li>
+          <li><a href="">Уход за изделиями</a></li>
+        </ul>
+      </div>
+      <div class="firstcol">
+        <ul>
+          <li>Партнерам</li>
+          <li><a href="">Партнерам</a></li>
+          <li><a href="">Франчайзинг</a></li>
+          <li><a href="">Зарубежные партнеры</a></li>
+          <li><a href="">Оптовые партнеры</a></li>
+        </ul>
+      </div>
+      <div class="lastcol">
+        <ul>
+          <li>
+            Подпишитесь <br />
+            на нашу рассылку
+          </li>
+          <li>Обещаем отправлять только важное и интересное</li>
+          <li>
+            <label for="" class="label">
+              <input
+                type="text"
+                class="inputText"
+                required
+                placeholder="E-mail"
+              />
+              <button><img src="images/footer/envelope.svg" alt="" /></button>
+            </label>
+          </li>
+          <li>
+            Отправляя данные формы, вы соглашаетесь с условиями политикой
+            конфиденциальности
+          </li>
+          <li>
+            <div class="burger_links footer_links">
+              <a href=""><img src="images/footer/yout.svg" alt="" /></a>
+              <a href=""><img src="images/footer/fb.svg" alt="" /></a>
+              <a href=""><img src="images/footer/insta.svg" alt="" /></a>
+              <a href=""><img src="images/footer/vk.svg" alt="" /></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper("#first_slider", {
+        navigation: {
+          nextEl: ".swiper-button-next1",
+          prevEl: ".swiper-button-prev1",
+        },
+      });
+      swiper.on("transitionEnd", function () {
+        let x = 1;
+        let slideNum = document.querySelector("#slideNum");
+        slideNum.innerText = `0${swiper.activeIndex + x}/05`;
+      });
+
+      const swiper2 = new Swiper("#sec_slider", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      swiper2.on("transitionEnd", function () {
+        let x = 1;
+        let slideNum2 = document.querySelector("#slideNum2");
+        slideNum2.innerText = `0${swiper2.activeIndex + x}/05`;
+      });
+
+      const swiper3 = new Swiper("#third_slider", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        
+      });
+      swiper3.on("transitionEnd", function () {
+        let x = 1;
+        let slideNum3 = document.querySelector("#slideNum3");
+        slideNum3.innerText = `0${swiper3.activeIndex + x}/05`;
+      });
+
+      const swiper_cloth = new Swiper("#swip_clothes", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: 3,
+        loop: true,
+      });
+    </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+    <script src="main.js"></script>
+  </body>
+</html>
